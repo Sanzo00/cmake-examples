@@ -1,0 +1,9 @@
+#ifndef __PATH_H__
+#define __PATH_H__
+
+// path variable that will be susstituted by cmake
+// This shows an examples using the @ variable type
+const char* path = "@CMAKE_SOURCE_DIR@";
+// const char* path = "${CMAKE_SOURCE_DIR}";
+
+#endif
